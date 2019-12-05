@@ -675,7 +675,7 @@ xp: 100
 ```yaml
 type: NormalExercise
 key: 4f837cc9b7
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -704,7 +704,7 @@ chickwts <- chickwts
 ```yaml
 type: NormalExercise
 key: 11a12d6a03
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -733,7 +733,7 @@ str(chickwts)
 ```yaml
 type: NormalExercise
 key: 92db60f74f
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -762,7 +762,7 @@ chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]
 ```yaml
 type: NormalExercise
 key: da85b204f4
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -796,7 +796,7 @@ mean(chickwts$weight)
 ```yaml
 type: NormalExercise
 key: 1b91385a8e
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -823,4 +823,88 @@ mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weigh
 `@sct`
 ```{r}
 # Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 5f7e723596
+xp: 15
+```
+
+`@instructions`
+Bitte lassen Sie sich von R ein Balkendiagramm ausgeben, wobei auf der X-Achse die unterschiedlichen Sorten(feed) sind und auf der Y-Achse das Gewicht!
+
+`@hint`
+boxplot(y ~ x, data = ...)
+
+`@sample_code`
+```{r}
+chickwts <- chickwts
+```
+
+`@solution`
+```{r}
+boxplot(weight ~ feed, data = chickwts)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d73e70505d
+xp: 15
+```
+
+`@instructions`
+Unterscheiden sich die Feed-Gruppen signifikant voneinander? Berechnen Sie bitte eine ANOVA!
+
+`@hint`
+anova(lm(y~x,data = ...))
+
+`@sample_code`
+```{r}
+chickwts <- chickwts
+```
+
+`@solution`
+```{r}
+anova(lm(weight ~ feed, data = chickwts))
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 1be020f4d1
+xp: -5
+```
+
+`@question`
+Unterscheiden sich die Gruppen signifikant voneinander?
+laut ANOVA Step 7.
+
+`@possible_answers`
+- [Ja]
+- Nein
+
+`@hint`
+<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
+- This is an example hint.
+- This is an example hint.
+
+`@sct`
+```{r}
+# Check https://instructor-support.datacamp.com/en/articles/2375523-course-multiple-choice-with-console-exercises on how to write feedback messages for this exercise.
 ```
