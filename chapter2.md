@@ -23,15 +23,13 @@ xp: 100
 ```yaml
 type: NormalExercise
 key: 435c8eecd9
-xp: 35
+xp: 25
 ```
 
 `@instructions`
-<!-- Guidelines for instructions https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
-Erzeugen Sie einen Vektor x, der aus den natürlichen Zahlen von 1 bis 10 besteht
+Erzeugen Sie einen Vektor x, der aus den natürlichen Zahlen von 1 bis 10 besteht!
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
 c(x:y)
 
 `@sample_code`
@@ -46,7 +44,7 @@ x <- c(1:10)
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+
 ```
 
 ***
@@ -54,30 +52,28 @@ x <- c(1:10)
 ```yaml
 type: NormalExercise
 key: 997a713957
-xp: 35
+xp: 25
 ```
 
 `@instructions`
-<!-- Guidelines for instructions https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
 Berechnen Sie die anschließend die Summe von x und weisen Sie das Ergebnis einem Vektor y zu.
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
 sum()
 
 `@sample_code`
 ```{r}
-
+x <- c(1:10)
 ```
 
 `@solution`
 ```{r}
-y <- sum(x)
+y <- sum(1:10)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+
 ```
 
 ***
@@ -85,28 +81,53 @@ y <- sum(x)
 ```yaml
 type: NormalExercise
 key: 522d9b57ce
-xp: 30
+xp: 25
 ```
 
 `@instructions`
-<!-- Guidelines for instructions https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
 Erzeugen Sie einen neuen Vektor z der x und danach y enthält.
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
 c(firstVec,secondVec)
 
 `@sample_code`
 ```{r}
-
+x <- c(1:10)
+y <- sum(x)
 ```
 
 `@solution`
 ```{r}
-z <- c(x,y)
+z <- c(1:10,sum(1:10))
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+
+```
+
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 1d89dfc5eb
+xp: 25
+```
+
+`@question`
+Was ist jetzt die Summe von z?
+
+`@possible_answers`
+- [605]
+- 595
+- 615
+
+`@hint`
+<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
+- This is an example hint.
+- This is an example hint.
+
+`@sct`
+```{r}
+# Check https://instructor-support.datacamp.com/en/articles/2375523-course-multiple-choice-with-console-exercises on how to write feedback messages for this exercise.
 ```
