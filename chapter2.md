@@ -429,3 +429,167 @@ z<- c((x[x%%9==0])+7,(x[x%%2==1])-1)
 ```{r}
 # Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
 ```
+
+---
+
+## Cars
+
+```yaml
+type: TabExercise
+key: 57ba32e6f6
+xp: 100
+```
+
+<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: a4afb6dddf
+xp: 20
+```
+
+`@instructions`
+Betrachten Sie den Datensatz cars und speichern Sie ihn als cars ab.
+
+`@hint`
+var <- dataset
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+cars <- cars
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 413263920e
+xp: 20
+```
+
+`@instructions`
+Wie viele Beobachtungen und Variablen enthält der Datensatz?
+Mit welchem Befehl in R sieht man das am Einfachsten?
+
+`@hint`
+Es ist nicht view(),head()!
+
+`@sample_code`
+```{r}
+cars <- cars
+```
+
+`@solution`
+```{r}
+str(cars)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: a259c8f3cc
+xp: 20
+```
+
+`@instructions`
+Geben Sie die 3., 10. und 12. Beobachtung aus.
+
+`@hint`
+name[c(.,.,.),]
+
+`@sample_code`
+```{r}
+cars <- cars
+```
+
+`@solution`
+```{r}
+cars <- cars
+cars[c(3,10,12),]
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 9867c3f436
+xp: 20
+```
+
+`@instructions`
+Extrahieren Sie die zweite Variable.
+
+`@hint`
+dataset[,2]
+
+`@sample_code`
+```{r}
+cars <- cars
+```
+
+`@solution`
+```{r}
+cars[,2]
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 4e706c2c5c
+xp: 20
+```
+
+`@instructions`
+Extrahieren Sie die Variable dist fuer die ersten 3 Beobachtungen.
+
+`@hint`
+dataset$var[x:y]
+
+`@sample_code`
+```{r}
+cars <- cars
+```
+
+`@solution`
+```{r}
+cars$dist[1:3]
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
