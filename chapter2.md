@@ -321,3 +321,111 @@ mean(ToothGrowth$len[ToothGrowth$supp == "OJ"])
 ```{r}
 # Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
 ```
+
+---
+
+## Vektoren again!
+
+```yaml
+type: TabExercise
+key: 4766f57a23
+xp: 100
+```
+
+<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: b5f5e76442
+xp: 35
+```
+
+`@instructions`
+Erzeugen Sie einen Vektor x, der die Zahlen von 1 bis 100 enthält
+
+`@hint`
+Sollten Sie mittlerweile schon wissen ;)
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+x <- c(1:100)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 48f2446fd1
+xp: 35
+```
+
+`@instructions`
+Legen Sie eine neue Variable y an in der Sie Folgendes speichern: 
+Dividieren Sie alle in x enthaltenen Vielfachen von 6 durch 3.
+
+`@hint`
+x%%6==0
+
+`@sample_code`
+```{r}
+x <- c(1:100)
+```
+
+`@solution`
+```{r}
+x <- c(1:100)
+y <- (x[x%%6==0])/3
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: c363c8c5b7
+xp: 30
+```
+
+`@instructions`
+Speichern Sie in z -> Addieren Sie zu allen durch 9 teilbaren Zahlen in x den Wert 7 und ziehen Sie den Wert 1 von den ungeraden
+ab.
+
+`@hint`
+c(((x[x%%Bedingung])+7),((x[x%%Bedingung])-1))
+
+`@sample_code`
+```{r}
+x <- c(1:100)
+```
+
+`@solution`
+```{r}
+x <- c(1:100)
+z<- c((x[x%%9==0])+7,(x[x%%2==1])-1)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
