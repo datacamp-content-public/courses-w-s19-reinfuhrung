@@ -741,7 +741,7 @@ xp: 20
 ```
 
 `@instructions`
-Wie sind diese Werte,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden. Wir haben schon vorsortiert und in die Variable ch gespeichert!
+Wie sind diese Werte,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
 
 `@hint`
 <!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
@@ -751,14 +751,14 @@ Wie sind diese Werte,wenn nur jene Huehner betrachtet werden, die mit horsebean 
 `@sample_code`
 ```{r}
 chickwts <- chickwts
-ch <- chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]
+
 ```
 
 `@solution`
 ```{r}
-min(ch$weight)
-max(ch$weight)
-mean(ch$weight)
+min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
 ```
 
 `@sct`
