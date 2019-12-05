@@ -624,6 +624,35 @@ cars$dist[1:3]
 # Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: 27e55ee02b
+```
+
+`@instructions`
+Bitte lassen Sie sich ein einfaches Streudiagramm von Distanz gegen Speed ausgeben!
+D.h x-Achse Speed, y-Achse Dist!
+
+`@hint`
+plot(y~x)
+
+`@sample_code`
+```{r}
+cars <- cars
+```
+
+`@solution`
+```{r}
+plot(cars$dist~cars$speed)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
 ---
 
 ## chickwts
