@@ -751,7 +751,7 @@ Wie sind diese Werte,wenn nur jene Huehner betrachtet werden, die mit horsebean 
 `@sample_code`
 ```{r}
 chickwts <- chickwts
-ch <- df[df$feed == "horsebean" | df$feed == "linseed", ]
+ch <- chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]
 ```
 
 `@solution`
