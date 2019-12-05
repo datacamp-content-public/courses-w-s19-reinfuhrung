@@ -154,7 +154,7 @@ ToothGrowth <- ToothGrowth
 ```yaml
 type: NormalExercise
 key: c376f2ec22
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -183,7 +183,7 @@ ToothGrowth <- ToothGrowth
 ```yaml
 type: NormalExercise
 key: 19af2611cd
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -212,7 +212,7 @@ mean(ToothGrowth$len)
 ```yaml
 type: NormalExercise
 key: 05cba0be28
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -241,7 +241,7 @@ ToothGrowth[ToothGrowth$len>=20,]
 ```yaml
 type: NormalExercise
 key: c485fb1cae
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -270,7 +270,7 @@ sd(ToothGrowth$len)
 ```yaml
 type: NormalExercise
 key: 843e25104a
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -299,6 +299,7 @@ cor(ToothGrowth$dose,ToothGrowth$len)
 ```yaml
 type: NormalExercise
 key: 5b0c2d5843
+xp: 15
 ```
 
 `@instructions`
@@ -315,6 +316,35 @@ ToothGrowth <- ToothGrowth
 `@solution`
 ```{r}
 mean(ToothGrowth$len[ToothGrowth$supp == "OJ"])
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 88f02e6ae6
+xp: 10
+```
+
+`@instructions`
+Lassen Sie sich von R ein einfaches Streudiagramm der Variable Länge len ausgeben
+
+`@hint`
+plot()
+
+`@sample_code`
+```{r}
+ToothGrowth <- ToothGrowth
+```
+
+`@solution`
+```{r}
+plot(ToothGrowth$len)
 ```
 
 `@sct`
