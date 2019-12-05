@@ -324,7 +324,7 @@ mean(ToothGrowth$len[ToothGrowth$supp == "OJ"])
 
 ---
 
-## Vektoren again!
+## Vektoren again
 
 ```yaml
 type: TabExercise
@@ -587,6 +587,178 @@ cars <- cars
 `@solution`
 ```{r}
 cars$dist[1:3]
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+---
+
+## chickwts
+
+```yaml
+type: TabExercise
+key: 486e9fe2e3
+xp: 100
+```
+
+<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 4f837cc9b7
+xp: 20
+```
+
+`@instructions`
+Betrachten Sie den Datensatz chickwts und speichern sie Ihn auch so ab.
+
+`@hint`
+Schaffst du auch so ;)
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+chickwts <- chickwts
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 11a12d6a03
+xp: 20
+```
+
+`@instructions`
+Wie viele Beobachtungen und Variablen enthält der Datensatz?
+
+`@hint`
+Weißt du doch schon ;)
+
+`@sample_code`
+```{r}
+chickwts <- chickwts
+```
+
+`@solution`
+```{r}
+str(chickwts)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 92db60f74f
+xp: 20
+```
+
+`@instructions`
+Extrahieren Sie einen neuen Datensatz, der nur jene Beobachtungen enthält, wo die Hühner mit horsebean oder linseed gefüttert wurden.
+
+`@hint`
+google wird dir helfen :p
+
+`@sample_code`
+```{r}
+chickwts <- chickwts
+```
+
+`@solution`
+```{r}
+chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: da85b204f4
+xp: 20
+```
+
+`@instructions`
+Was ist das minimale, maximale und durchschnittliche Gewicht für alle Beobachtungen?
+Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich!
+
+`@hint`
+<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
+- This is an example hint.
+- This is an example hint.
+
+`@sample_code`
+```{r}
+chickwts <- chickwts
+```
+
+`@solution`
+```{r}
+min(chickwts$weight)
+max(chickwts$weight)
+mean(chickwts$weight)
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 1b91385a8e
+xp: 20
+```
+
+`@instructions`
+Wie sind diese Werte,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden. Wir haben schon vorsortiert und in die Variable ch gespeichert!
+
+`@hint`
+<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
+- This is an example hint.
+- This is an example hint.
+
+`@sample_code`
+```{r}
+chickwts <- chickwts
+ch <- df[df$feed == "horsebean" | df$feed == "linseed", ]
+```
+
+`@solution`
+```{r}
+min(ch$weight)
+max(ch$weight)
+mean(ch$weight)
 ```
 
 `@sct`
