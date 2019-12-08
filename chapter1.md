@@ -102,6 +102,7 @@ Welches Dezimaltrennzeichen wird in R verwendet?
 - [Correct answer 1]
 - Wrong answer 2
 - Wrong answer 3
+- Wrong answer 4
 
 `@feedback`
 - Nope

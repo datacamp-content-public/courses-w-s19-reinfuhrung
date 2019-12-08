@@ -908,3 +908,103 @@ laut ANOVA Step 7.
 ```{r}
 # Check https://instructor-support.datacamp.com/en/articles/2375523-course-multiple-choice-with-console-exercises on how to write feedback messages for this exercise.
 ```
+
+---
+
+## If , If-else
+
+```yaml
+type: NormalExercise
+key: a33e66c617
+xp: 100
+```
+
+<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
+
+`@instructions`
+x <- -5
+
+Schreiben Sie eine einfache If-Bedingung, sodass von R anhand des Wertes in x für eine positive Zahl  "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
+
+`@hint`
+if(...){
+print(...)
+} else {
+print(...)
+}
+
+`@pre_exercise_code`
+```{r}
+x <- -5
+```
+
+`@sample_code`
+```{r}
+x <- -5
+```
+
+`@solution`
+```{r}
+if(x > 0){
+print("Non-negative number")
+} else {
+print("Negative number")
+}
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
+
+---
+
+## Show me your Skills!
+
+```yaml
+type: NormalExercise
+key: 9cf1fc2eb2
+xp: 100
+```
+
+<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
+
+`@instructions`
+Die Fibonacci-Folge ist eine unendliche Folge von Zahlen (den Fibonacci-Zahlen), bei der sich die jeweils folgende
+Zahl durch Addition der beiden vorherigen Zahlen
+
+
+fn = fn-1 + fn+2
+
+mit den Anfangswerten f0 = 0 und f1 = 1 ergibt. Also, 0; 1; 1; 2; 3; 5; 8; 13; : : :. Schreiben Sie eine for-Schleife, welche in einem Vektor fib die ersten 30 Fibonacci-Zahlen abspeichert.	
+
+Am Ende vom Code bitte die Folge ausgeben lassen. Also print(fib)
+
+`@hint`
+for (i in 3:30) { ......}
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+fib <- c(0,1)
+for (i in 3:30) { 
+  fn <- fib[i-1] + fib[i-2]
+  fib <- c(fib, fn)
+}
+print(fib)
+
+```
+
+`@sct`
+```{r}
+# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+```
