@@ -630,7 +630,7 @@ key: 27e55ee02b
 
 `@instructions`
 Bitte lassen Sie sich ein einfaches Streudiagramm von Distanz gegen Speed ausgeben!
-D.h x-Achse Speed, y-Achse Dist!
+D.h., x-Achse _speed_, y-Achse _dist_!
 
 `@hint`
 plot(y~x)
