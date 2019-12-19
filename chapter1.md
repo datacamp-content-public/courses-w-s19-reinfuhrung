@@ -93,16 +93,13 @@ xp: 50
 Welches Dezimaltrennzeichen wird in R verwendet?
 
 `@hint`
+
+
+`@possible_answers`
 - Komma
 - [Punkt]
 - Semikolon
-- Colon
-
-`@possible_answers`
-- [Correct answer 1]
-- Wrong answer 2
-- Wrong answer 3
-- Wrong answer 4
+- Klammer
 
 `@feedback`
 - Nope
