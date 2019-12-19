@@ -996,5 +996,5 @@ print(fib)
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+Super, alles gut gemeistert!
 ```
