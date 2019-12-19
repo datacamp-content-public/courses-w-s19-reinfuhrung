@@ -915,7 +915,7 @@ xp: 100
 `@instructions`
 x <- -5
 
-Schreiben Sie eine einfache If-Bedingung, sodass von R anhand des Wertes in x für eine positive Zahl  "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
+Schreiben Sie eine einfache If-Bedingung, sodass R anhand des Wertes in x für eine positive Zahl  "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
 
 `@hint`
 if(...){
