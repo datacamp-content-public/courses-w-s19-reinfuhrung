@@ -827,7 +827,7 @@ xp: 15
 ```
 
 `@instructions`
-Bitte lassen Sie sich von R ein Balkendiagramm ausgeben, wobei auf der X-Achse die unterschiedlichen Sorten(feed) sind und auf der Y-Achse das Gewicht!
+Bitte lassen Sie sich von R ein Balkendiagramm ausgeben, wobei auf der X-Achse die unterschiedlichen Sorten (_feed_) aufgetragen sind und auf der Y-Achse das Gewicht!
 
 `@hint`
 boxplot(y ~ x, data = ...)
