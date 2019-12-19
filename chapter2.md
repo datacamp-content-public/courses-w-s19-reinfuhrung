@@ -795,12 +795,10 @@ xp: 15
 ```
 
 `@instructions`
-Wie sind diese Werte,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
+Berechnen Sie die Werte _min, max_ und _mean_,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
-- This is an example hint.
-- This is an example hint.
+Befehl(dataset[dataset$var == "horsebean" | dataset$var == "linseed", ]$weight)
 
 `@sample_code`
 ```{r}
