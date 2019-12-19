@@ -296,7 +296,7 @@ xp: 100
 Prüfe in einer Codezeile, ob 3 * 4 gleich 2 * 6 UND 5 * 12 gleich 60 ist.
 
 `@hint`
-a == b & c == d
+Zuerst die ersten beiden Prdoukte vergleichen, dann Und-Zeichen, dann die beiden anderen Zahlen vergleichen
 
 `@pre_exercise_code`
 ```{r}
