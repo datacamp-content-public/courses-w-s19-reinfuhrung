@@ -200,7 +200,7 @@ key: a5759445de
 xp: 100
 ```
 
-Bei dieser Aufgabe geht es darum, die Konsole von R-Studio als einfachen Taschenrechner zu verwenden. 
+Bei dieser Aufgabe geht es darum, die Konsole von R-Studio als einfachen Taschenrechner zu verwenden.
 
 `@instructions`
 Berechne die Summe aus 2 und 28.
