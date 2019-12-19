@@ -56,7 +56,7 @@ xp: 25
 ```
 
 `@instructions`
-Berechnen Sie die anschließend die Summe von x und weisen Sie das Ergebnis einem Vektor y zu.
+Berechnen Sie anschließend die Summe von x und weisen Sie das Ergebnis einem Vektor y zu.
 
 `@hint`
 sum()
@@ -85,7 +85,7 @@ xp: 25
 ```
 
 `@instructions`
-Erzeugen Sie einen neuen Vektor z der x und danach y enthält.
+Erzeugen Sie einen neuen Vektor z, der x und danach y enthält.
 
 `@hint`
 c(firstVec,secondVec)
@@ -123,9 +123,7 @@ Was ist jetzt die Summe von z?
 - 615
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
-- This is an example hint.
-- This is an example hint.
+
 
 `@sct`
 ```{r}
