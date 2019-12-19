@@ -188,7 +188,7 @@ xp: 15
 Berechnen Sie die mittlere Zahnlänge (len) der Meerschweinchen.
 
 `@hint`
-mean()
+mean(dataset$variable)
 
 `@sample_code`
 ```{r}
