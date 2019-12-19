@@ -676,7 +676,7 @@ xp: 15
 ```
 
 `@instructions`
-Betrachten Sie den Datensatz chickwts und speichern sie Ihn auch so ab.
+Betrachten Sie den Datensatz chickwts und speichern Sie ihn auch so ab.
 
 `@hint`
 Schaffst du auch so ;)
@@ -708,7 +708,7 @@ xp: 15
 Wie viele Beobachtungen und Variablen enthält der Datensatz?
 
 `@hint`
-Weißt du doch schon ;)
+Verwenden Sie str()
 
 `@sample_code`
 ```{r}
