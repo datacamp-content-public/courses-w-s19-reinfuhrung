@@ -200,13 +200,13 @@ key: a5759445de
 xp: 100
 ```
 
-Berechne die Summe aus 2 und 28.
+Bei dieser Aufgabe geht es darum, die Konsole von R-Studio als einfachen Taschenrechner zu verwenden. 
 
 `@instructions`
-Bei dieser Aufgabe geht es darum, die Konsole von R-Studio als einfachen Taschenrechner zu verwenden.
+Berechne die Summe aus 2 und 28.
 
 `@hint`
-Ergebnis sollte 30 sein, wenn du was anderes heraus bekommst, dann passt was nicht
+Ergebnis sollte 30 sein, wenn du was anderes heraus bekommst, dann passt was nicht. Hast du auf "Run Code" und "Submit Answer" gedrückt?
 
 `@pre_exercise_code`
 ```{r}
