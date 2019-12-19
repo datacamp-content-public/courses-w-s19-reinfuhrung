@@ -767,9 +767,7 @@ Was ist das minimale, maximale und durchschnittliche Gewicht für alle Beobachtu
 Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich!
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
-- This is an example hint.
-- This is an example hint.
+Befehl(chickwts$weight)
 
 `@sample_code`
 ```{r}
