@@ -120,9 +120,7 @@ xp: 50
 In R wird zwischen Groß- und Kleinschreibung unterschieden, richtig oder falsch?
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
-- This is an example hint.
-- This is an example hint.
+
 
 `@possible_answers`
 - [richtig]
