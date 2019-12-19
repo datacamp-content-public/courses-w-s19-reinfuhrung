@@ -483,7 +483,7 @@ xp: 20
 ```
 
 `@instructions`
-Betrachten Sie den Datensatz cars und speichern Sie ihn als cars ab.
+Betrachten Sie den Datensatz _cars_ und speichern Sie ihn als _cars_ ab.
 
 `@hint`
 var <- dataset
@@ -513,10 +513,10 @@ xp: 20
 
 `@instructions`
 Wie viele Beobachtungen und Variablen enthält der Datensatz?
-Mit welchem Befehl in R sieht man das am Einfachsten?
+Mit welchem Befehl in R sieht man das am einfachsten?
 
 `@hint`
-Es ist nicht view(),head()!
+Es ist str()
 
 `@sample_code`
 ```{r}
