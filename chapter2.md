@@ -330,7 +330,7 @@ xp: 10
 ```
 
 `@instructions`
-Lassen Sie sich von R ein einfaches Streudiagramm der Variable Länge len ausgeben
+Lassen Sie sich von R ein einfaches Streudiagramm der Variable _len_ ausgeben
 
 `@hint`
 plot()
