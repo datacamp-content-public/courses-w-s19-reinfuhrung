@@ -886,16 +886,14 @@ xp: -5
 
 `@question`
 Unterscheiden sich die Gruppen signifikant voneinander?
-laut ANOVA Step 7.
+Laut ANOVA Step 7.
 
 `@possible_answers`
 - [Ja]
 - Nein
 
 `@hint`
-<!-- Examples of good hints: https://instructor-support.datacamp.com/en/articles/2379164-hints-best-practices. -->
-- This is an example hint.
-- This is an example hint.
+
 
 `@sct`
 ```{r}
