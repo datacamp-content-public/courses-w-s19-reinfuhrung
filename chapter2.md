@@ -737,7 +737,7 @@ xp: 15
 Extrahieren Sie einen neuen Datensatz, der nur jene Beobachtungen enthält, wo die Hühner mit horsebean oder linseed gefüttert wurden.
 
 `@hint`
-google wird dir helfen :p
+Wir brauchen eine Bedingung [], einen Vergleich == und ein Oder |
 
 `@sample_code`
 ```{r}
