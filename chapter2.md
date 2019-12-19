@@ -405,7 +405,7 @@ xp: 35
 ```
 
 `@instructions`
-Legen Sie eine neue Variable y an in der Sie Folgendes speichern: 
+Legen Sie eine neue Variable y an, in der Sie Folgendes speichern: 
 Dividieren Sie alle in x enthaltenen Vielfachen von 6 durch 3.
 
 `@hint`
@@ -436,8 +436,7 @@ xp: 30
 ```
 
 `@instructions`
-Speichern Sie in z -> Addieren Sie zu allen durch 9 teilbaren Zahlen in x den Wert 7 und ziehen Sie den Wert 1 von den ungeraden
-ab.
+Speichern Sie das Ergebnis der folgenden Aufgabe in z. Addieren Sie zu allen durch 9 teilbaren Zahlen in x den Wert 7 und ziehen Sie den Wert 1 von den ungeraden Zahlen in x ab.
 
 `@hint`
 c(((x[x%%Bedingung])+7),((x[x%%Bedingung])-1))
