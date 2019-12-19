@@ -243,7 +243,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Standardabweichung für die Zahnlänge (len)
+Berechnen Sie die Standardabweichung für die Zahnlänge (_len_)
 
 `@hint`
 sd()
@@ -304,7 +304,7 @@ xp: 15
 Berechnen Sie den Mittelwert der Zahnlängen nur für die Gruppe "OJ"!
 
 `@hint`
-mean(var[Bedingung])
+mean(var[Bedingung]), "OJ" in Anführungszeichen
 
 `@sample_code`
 ```{r}
