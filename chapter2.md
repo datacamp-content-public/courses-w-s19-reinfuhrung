@@ -156,7 +156,7 @@ xp: 15
 ```
 
 `@instructions`
-Laden Sie den bereits verfügbaren Datensatz ToothGrowth und speichern Sie ihn unter ToothGrowth. Die Daten stammen von einem Experiment zum Wachstum der Zähne(gemessen durch die Länge len) bei Meerschweinchen, die eine Dosis dose an Vitamin C in einer von zwei Verabreichungsformen (supp) erhalten haben.
+Laden Sie den bereits verfügbaren Datensatz ToothGrowth und speichern Sie ihn unter ToothGrowth. Die Daten stammen von einem Experiment zum Wachstum der Zähne (gemessen durch die Länge _len_) bei Meerschweinchen, die eine Dosis _dose_ an Vitamin C in einer von zwei Verabreichungsformen (_supp_) erhalten haben.
 
 `@hint`
 name <- dataset
