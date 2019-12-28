@@ -525,7 +525,8 @@ cars <- cars
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("cars") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -567,7 +568,7 @@ xp: 20
 ```
 
 `@instructions`
-Geben Sie die 3., 10. und 12. Beobachtung aus.
+Geben Sie die 3., 10. und 12. Beobachtung aus und speichern Sie diese in die Variable x!
 
 `@hint`
 name[c(.,.,.),]
@@ -580,12 +581,13 @@ cars <- cars
 `@solution`
 ```{r}
 cars <- cars
-cars[c(3,10,12),]
+x <- cars[c(3,10,12),]
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("x") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -597,7 +599,7 @@ xp: 20
 ```
 
 `@instructions`
-Extrahieren Sie die zweite Variable.
+Extrahieren Sie die zweite Variable und speichern Sie diese in two!
 
 `@hint`
 dataset[,2]
@@ -609,12 +611,13 @@ cars <- cars
 
 `@solution`
 ```{r}
-cars[,2]
+two <- cars[,2]
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("two") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -626,7 +629,7 @@ xp: 20
 ```
 
 `@instructions`
-Extrahieren Sie die Variable dist fuer die ersten 3 Beobachtungen.
+Extrahieren Sie die Variable dist fuer die ersten 3 Beobachtungen und speichern Sie diese in firstthree!
 
 `@hint`
 dataset$var[x:y]
@@ -638,12 +641,13 @@ cars <- cars
 
 `@solution`
 ```{r}
-cars$dist[1:3]
+firstthree <- cars$dist[1:3]
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("firstthree") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -701,7 +705,7 @@ xp: 15
 ```
 
 `@instructions`
-Betrachten Sie den Datensatz chickwts und speichern Sie ihn auch so ab.
+Betrachten Sie den Datensatz chickwts und speichern Sie ihn als chickw ab!
 
 `@hint`
 Schaffst du auch so ;)
@@ -713,12 +717,13 @@ Schaffst du auch so ;)
 
 `@solution`
 ```{r}
-chickwts <- chickwts
+chickw <- chickwts
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("chickw") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -760,6 +765,7 @@ xp: 15
 
 `@instructions`
 Extrahieren Sie einen neuen Datensatz, der nur jene Beobachtungen enthält, wo die Hühner mit horsebean oder linseed gefüttert wurden.
+Speichern Sie diesen Datensatz unter dem Namen sol!
 
 `@hint`
 Wir brauchen eine Bedingung [], einen Vergleich == und ein Oder |
@@ -771,12 +777,13 @@ chickwts <- chickwts
 
 `@solution`
 ```{r}
-chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]
+sol <- chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("sol") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -789,7 +796,7 @@ xp: 15
 
 `@instructions`
 Was ist das minimale, maximale und durchschnittliche Gewicht für alle Beobachtungen?
-Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich!
+Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich und speichern Sie diese in mi,ma und mea!
 
 `@hint`
 Befehl(chickwts$weight)
@@ -801,14 +808,15 @@ chickwts <- chickwts
 
 `@solution`
 ```{r}
-min(chickwts$weight)
-max(chickwts$weight)
-mean(chickwts$weight)
+mi <- min(chickwts$weight)
+ma <- max(chickwts$weight)
+mea <- mean(chickwts$weight)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("mi","ma","mea") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
