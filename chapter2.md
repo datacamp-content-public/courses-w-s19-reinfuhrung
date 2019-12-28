@@ -986,12 +986,12 @@ for (i in 3:30) { ......}
 
 `@pre_exercise_code`
 ```{r}
-fib <- c(0,1)
+
 ```
 
 `@sample_code`
 ```{r}
-
+fib <- c(0,1)
 ```
 
 `@solution`
@@ -1007,5 +1007,5 @@ print(fib)
 
 `@sct`
 ```{r}
-Super, alles gut gemeistert!
+"Super, alles gut gemeistert!"
 ```
