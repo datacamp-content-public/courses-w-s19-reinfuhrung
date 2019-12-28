@@ -44,7 +44,8 @@ x <- c(1:10)
 
 `@sct`
 ```{r}
-
+ex() %>% check_object("x") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -75,7 +76,8 @@ y <- sum(1:10)
 
 `@sct`
 ```{r}
-
+ex() %>% check_object("y") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -107,7 +109,8 @@ z <- c(1:10,sum(1:10))
 
 `@sct`
 ```{r}
-
+ex() %>% check_object("z") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -412,7 +415,8 @@ x <- c(1:100)
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("x") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -443,7 +447,8 @@ y <- (x[x%%6==0])/3
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("y") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -468,12 +473,13 @@ x <- c(1:100)
 `@solution`
 ```{r}
 x <- c(1:100)
-z<- c((x[x%%9==0])+7,(x[x%%2==1])-1)
+z <- c((x[x%%9==0])+7,(x[x%%2==1])-1)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("z") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ---
