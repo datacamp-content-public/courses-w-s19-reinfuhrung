@@ -182,7 +182,7 @@ ToothGrowth <- ToothGrowth
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+"well done"
 ```
 
 ***
@@ -211,7 +211,7 @@ mean(ToothGrowth$len)
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+"well done"
 ```
 
 ***
@@ -240,7 +240,7 @@ ToothGrowth[ToothGrowth$len>=20,]
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+"well done"
 ```
 
 ***
