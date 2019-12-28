@@ -735,7 +735,7 @@ xp: 15
 ```
 
 `@instructions`
-Wie viele Beobachtungen und Variablen enthält der Datensatz?
+Wie viele Beobachtungen und Variablen enthält der Datensatz? Speichern Sie die Antwort als ch ab!
 
 `@hint`
 Verwenden Sie str()
@@ -747,12 +747,13 @@ chickwts <- chickwts
 
 `@solution`
 ```{r}
-str(chickwts)
+ch <- str(chickwts)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("ch") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
