@@ -211,7 +211,8 @@ mean(ToothGrowth$len)
 
 `@sct`
 ```{r}
-"well done"
+ex() %>% check_object() %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
