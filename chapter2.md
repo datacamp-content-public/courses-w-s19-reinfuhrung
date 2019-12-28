@@ -224,6 +224,7 @@ xp: 15
 
 `@instructions`
 Betrachten Sie alle Meerschweinchen mit einer Zahnlänge von mindestens 20.
+Speichern Sie die Beobachtungen als "m" ab.
 
 `@hint`
 Dataset[Dataset$variable(Bedingung),]
@@ -235,12 +236,13 @@ ToothGrowth <- ToothGrowth
 
 `@solution`
 ```{r}
-ToothGrowth[ToothGrowth$len>=20,]
+m <- ToothGrowth[ToothGrowth$len>=20,]
 ```
 
 `@sct`
 ```{r}
-"well done"
+ex() %>% check_object("m") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -269,7 +271,8 @@ sd(ToothGrowth$len)
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object() %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
