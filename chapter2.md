@@ -348,6 +348,8 @@ xp: 10
 `@instructions`
 Lassen Sie sich von R ein einfaches Streudiagramm der Variable _len_ ausgeben
 
+Speichern Sie den Befehl zur Kontrolle bitte als plotlen!
+
 `@hint`
 plot()
 
@@ -358,12 +360,13 @@ ToothGrowth <- ToothGrowth
 
 `@solution`
 ```{r}
-plot(ToothGrowth$len)
+plotlen <- plot(ToothGrowth$len)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("plotlen") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ---
