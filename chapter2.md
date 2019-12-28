@@ -194,7 +194,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die mittlere Zahnlänge (len) der Meerschweinchen.
+Berechnen Sie die mittlere Zahnlänge (len) der Meerschweinchen und legen Sie die Lösung bitte als m <- Lösung an.
 
 `@hint`
 mean(dataset$variable)
@@ -206,12 +206,12 @@ ToothGrowth <- ToothGrowth
 
 `@solution`
 ```{r}
-mean(ToothGrowth$len)
+m <- mean(ToothGrowth$len)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_correct() %>% check_equal()
+ex() %>% check_object("m") %>% check_equal()
 success_msg("Well done!")
 ```
 
