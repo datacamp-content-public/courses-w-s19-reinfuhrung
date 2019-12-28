@@ -1021,6 +1021,8 @@ mit den Anfangswerten f0 = 0 und f1 = 1 ergibt. Also, 0; 1; 1; 2; 3; 5; 8; 13; :
 
 Am Ende vom Code bitte die Folge ausgeben lassen. Also print(fib)
 
+Bitte am Ende dann die Summe der Fibonacci-Folge von 1:30 als Variable y abspeichern!
+
 `@hint`
 for (i in 3:30) { ......}
 
@@ -1031,7 +1033,7 @@ for (i in 3:30) { ......}
 
 `@sample_code`
 ```{r}
-fib <- c(0,1)
+
 ```
 
 `@solution`
@@ -1043,11 +1045,13 @@ for (i in 3:30) {
 }
 print(fib)
 
+y <- sum(fib)
+
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("fib") %>% check_equal()
+ex() %>% check_object("y") %>% check_equal()
 success_msg("Super, alles gut gemeistert!")
 
 
