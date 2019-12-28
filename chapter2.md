@@ -957,6 +957,7 @@ xp: 100
 x <- -5
 
 Schreiben Sie eine einfache If-Bedingung, sodass R anhand des Wertes in x für eine positive Zahl  "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
+Weiter soll Wenn eine Negative Nummer gefunden wurde ein Vektor y mit dem Wert 0 angelegt werden, sowie bei Nicht-negativen Zahlen ein y Vektor mit dem Wert 1!
 
 `@hint`
 if(...){
@@ -979,14 +980,22 @@ x <- -5
 ```{r}
 if(x > 0){
 print("Non-negative number")
+  y <- 1
 } else {
 print("Negative number")
+  y <- 0
 }
+
+
+
+
+
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("y") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ---
