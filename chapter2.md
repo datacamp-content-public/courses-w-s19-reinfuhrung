@@ -833,7 +833,7 @@ xp: 15
 `@instructions`
 Berechnen Sie die Werte _min, max_ und _mean_,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
 
-Speichern Sie diese erneut in mi,ma und mea!
+Speichern Sie diese in mi_h_l,ma_h_l und mea_h_l!
 
 `@hint`
 Befehl(dataset[dataset$var == "horsebean" | dataset$var == "linseed", ]$weight)
@@ -846,14 +846,14 @@ chickwts <- chickwts
 
 `@solution`
 ```{r}
-mi <- min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
-ma <- max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
-mea <- mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mi_h_l <- min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+ma_h_l <- max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mea_h_l <- mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("mi","ma","mea") %>% check_equal()
+ex() %>% check_object("mi_h_l","ma_h_l","mea_h_l") %>% check_equal()
 success_msg("Well done!")
 ```
 
