@@ -58,6 +58,8 @@ xp: 25
 `@instructions`
 Berechnen Sie anschließend die Summe von x und weisen Sie das Ergebnis einem Vektor y zu.
 
+p.s: Führen Sie ggf. die vorherigen Befehle nochmals aus!
+
 `@hint`
 sum()
 
@@ -86,6 +88,8 @@ xp: 25
 
 `@instructions`
 Erzeugen Sie einen neuen Vektor z, der x und danach y enthält.
+
+p.s: Führen Sie ggf. die vorherigen Befehle nochmals aus!
 
 `@hint`
 c(firstVec,secondVec)
@@ -116,6 +120,8 @@ xp: 25
 
 `@question`
 Was ist jetzt die Summe von z?
+
+p.s: Führen Sie ggf. die vorherigen Befehle nochmals aus!
 
 `@possible_answers`
 - [605]
