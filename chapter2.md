@@ -957,7 +957,8 @@ xp: 100
 x <- -5
 
 Schreiben Sie eine einfache If-Bedingung, sodass R anhand des Wertes in x für eine positive Zahl  "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
-Weiter soll Wenn eine Negative Nummer gefunden wurde ein Vektor y mit dem Wert 0 angelegt werden, sowie bei Nicht-negativen Zahlen ein y Vektor mit dem Wert 1!
+
+Weiter soll in dieser Bedingung sobald eine Negative Zahl gefunden wurde ein Vektor y mit dem Wert 0 angelegt werden, sowie bei Nicht-negativen Zahlen ein Vektor y mit dem Wert 1!
 
 `@hint`
 if(...){
