@@ -986,7 +986,7 @@ for (i in 3:30) { ......}
 
 `@pre_exercise_code`
 ```{r}
-
+fib <- c(0,1)
 ```
 
 `@sample_code`
