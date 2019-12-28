@@ -1044,7 +1044,6 @@ for (i in 3:30) {
   fib <- c(fib, fn)
 }
 print(fib)
-
 y <- sum(fib)
 
 ```
