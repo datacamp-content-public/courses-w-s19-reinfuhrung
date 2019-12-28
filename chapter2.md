@@ -255,7 +255,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Standardabweichung für die Zahnlänge (_len_)
+Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als m <- Lösung an.
 
 `@hint`
 sd()
@@ -272,7 +272,7 @@ sd(ToothGrowth$len)
 
 `@sct`
 ```{r}
-ex() %>% check_object() %>% check_equal()
+ex() %>% check_object("m") %>% check_equal()
 success_msg("Well done!")
 ```
 
@@ -286,6 +286,7 @@ xp: 15
 
 `@instructions`
 Berechnen Sie den Korrelationskoeffizienten zwischen Dosis und Zahnlänge.
+Lösung bitte als corr anlegen!
 
 `@hint`
 cor(x,y)
@@ -297,12 +298,13 @@ ToothGrowth <- ToothGrowth
 
 `@solution`
 ```{r}
-cor(ToothGrowth$dose,ToothGrowth$len)
+corr <- cor(ToothGrowth$dose,ToothGrowth$len)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("corr") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
@@ -314,7 +316,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie den Mittelwert der Zahnlängen nur für die Gruppe "OJ"!
+Berechnen Sie den Mittelwert der Zahnlängen nur für die Gruppe "OJ"! Speichern als oj!
 
 `@hint`
 mean(var[Bedingung]), "OJ" in Anführungszeichen
@@ -326,12 +328,13 @@ ToothGrowth <- ToothGrowth
 
 `@solution`
 ```{r}
-mean(ToothGrowth$len[ToothGrowth$supp == "OJ"])
+oj <- mean(ToothGrowth$len[ToothGrowth$supp == "OJ"])
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("oj") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
