@@ -797,7 +797,9 @@ xp: 15
 
 `@instructions`
 Was ist das minimale, maximale und durchschnittliche Gewicht für alle Beobachtungen?
-Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich und speichern Sie diese in mi,ma und mea!
+Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich!
+
+Speichern Sie diese in mi,ma und mea!
 
 `@hint`
 Befehl(chickwts$weight)
@@ -831,6 +833,8 @@ xp: 15
 `@instructions`
 Berechnen Sie die Werte _min, max_ und _mean_,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
 
+Speichern Sie diese erneut in mi,ma und mea!
+
 `@hint`
 Befehl(dataset[dataset$var == "horsebean" | dataset$var == "linseed", ]$weight)
 
@@ -842,14 +846,15 @@ chickwts <- chickwts
 
 `@solution`
 ```{r}
-min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
-max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
-mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mi <- min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+ma <- max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mea <- mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
 ```
 
 `@sct`
 ```{r}
-# Examples of good success messages: https://instructor-support.datacamp.com/en/articles/2299773-exercise-success-messages.
+ex() %>% check_object("mi","ma","mea") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ***
