@@ -1047,5 +1047,8 @@ print(fib)
 
 `@sct`
 ```{r}
-"Super, alles gut gemeistert!"
+ex() %>% check_object("fib") %>% check_equal()
+success_msg("Super, alles gut gemeistert!")
+
+
 ```
