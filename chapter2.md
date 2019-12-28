@@ -906,7 +906,9 @@ Laut ANOVA Step 7.
 
 `@sct`
 ```{r}
-# Check https://instructor-support.datacamp.com/en/articles/2375523-course-multiple-choice-with-console-exercises on how to write feedback messages for this exercise.
+msg1 <- "Perfect ;)"
+msg2 <- "Nope!? Bitte nochmal genau nachsehen!"
+ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
 ---
