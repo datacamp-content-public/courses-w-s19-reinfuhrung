@@ -255,7 +255,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als m <- Lösung an.
+Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als sa <- Lösung an.
 
 `@hint`
 sd()
@@ -267,12 +267,12 @@ ToothGrowth <- ToothGrowth
 
 `@solution`
 ```{r}
-sd(ToothGrowth$len)
+sa <- sd(ToothGrowth$len)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("m") %>% check_equal()
+ex() %>% check_object("sa") %>% check_equal()
 success_msg("Well done!")
 ```
 
