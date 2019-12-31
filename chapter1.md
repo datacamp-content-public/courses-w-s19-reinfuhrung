@@ -14,7 +14,7 @@ xp: 50
 In welchen der folgend genannten Fälle ist RStudio eine ideale Anwendung?
 
 `@hint`
-Vielleicht solltest du ganz kurz mal die Homepage von R-Studio ansehen
+Vielleicht solltest du ganz kurz mal die Homepage von R-Studio ansehen.
 
 `@possible_answers`
 - [Um R-Programme zu schreiben, den Programmablauf zu testen und projektbasiert zu arbeiten.]
@@ -41,7 +41,7 @@ xp: 50
 **Wofür steht IDE im Zusammenhang mit RStudio?**
 
 `@hint`
-RStudio ist eine IDE Anwendung, mit der R einfacher verwendet werden kann. Es integriert dabei einige hilfreiche Entwicklungsumgebungen in eine Anwendung.
+RStudio ist eine IDE-Anwendung, mit der R einfacher verwendet werden kann. Es integriert dabei einige hilfreiche Entwicklungsumgebungen in eine Anwendung.
 
 `@possible_answers`
 - Intensive Design Environment
@@ -128,7 +128,7 @@ In R wird zwischen Groß- und Kleinschreibung unterschieden, richtig oder falsch
 
 `@feedback`
 - Genau, nur weiter so!
-- Nein, leider ist die Antwort _falsch_ wirklich falsch
+- Nein, leider ist die Antwort _falsch_ wirklich falsch.
 
 ---
 
@@ -152,7 +152,7 @@ Welche Bedeutung hat in R das folgende Symbol == im Ausdruck 8 * 3 == 6 * 4?
 - Vergleicht, ob das Ergebnis 8 * 3 gleich 6 * 4 ist und liefert den logischen Wert FALSE als Ergebnis
 
 `@feedback`
-- Sorry, total daneben. Vielleicht solltest du das Skript nochmals von vorne zu lesen beginnen.
+- Das stimmt leider nicht.
 - Nein, der Ausdruck ist sehr wohl erlaubt.
 - Ja, er prüft auf logische Äquivalenz.
 - Der Vergleich liefert aber ein anderes Ergebnis, oder?
@@ -178,7 +178,7 @@ Verwende die Tab-completion von RStudio sowohl beim Funktionsnamen wie auch inne
 - 12.23
 
 `@hint`
-Verwende die Funktion mean() und die Tab-completion-Funktion von R-Studio
+Verwende die Funktion _mean()_ und die Tab-completion-Funktion von R-Studio
 
 `@pre_exercise_code`
 ```{r}
