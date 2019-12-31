@@ -353,7 +353,7 @@ key: 230d7c6510
 xp: 50
 ```
 
-Wozu dient die Extract Function?
+Wozu dient die Extract-Function?
 
 `@hint`
 - Sie ist praktisch für sich wiederholende Aufgaben.
