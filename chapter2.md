@@ -381,7 +381,7 @@ key: 4766f57a23
 xp: 100
 ```
 
-<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+Diese Aufgabe erfolgt wieder mit Vektoren.
 
 `@pre_exercise_code`
 ```{r}
@@ -397,10 +397,10 @@ xp: 35
 ```
 
 `@instructions`
-Erzeugen Sie einen Vektor x, der die Zahlen von 1 bis 100 enthält
+Erzeugen Sie einen Vektor x, der die Zahlen von 1 bis 100 enthält.
 
 `@hint`
-Sollten Sie mittlerweile schon wissen ;)
+Das sollten Sie mittlerweile schon wissen ;)
 
 `@sample_code`
 ```{r}
