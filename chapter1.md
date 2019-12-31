@@ -271,13 +271,13 @@ Welche Auswirkung haben die Pfeiltasten (nach oben, nach unten) in der Konsole?
 
 
 `@possible_answers`
-- Bewegen den Cursor in ein anderes Fenster von RStudio.
-- Bewirken nichts Spezielles.
-- [Blättern durch die bereits eingegebenen Befehle (Historie)]
+- Sie bewegen den Cursor in ein anderes Fenster von RStudio.
+- Sie bewirken nichts Spezielles.
+- [Sie blättern durch die bereits eingegebenen Befehle (Historie)]
 
 `@feedback`
 - Nein, tun sie nicht.
-- Bewirken schon etwas, denk mal nach oder probiers einfach mal aus!
+- Sie bewirken schon etwas, denk mal nach oder probiers einfach mal aus!
 - Ja, die Historie der bereits eingegeben Befehle wird damit durchblättert.
 
 ---
