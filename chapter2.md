@@ -688,7 +688,7 @@ key: 486e9fe2e3
 xp: 100
 ```
 
-<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+Der hier verwendete Datensatz enthält Futter- und Gewichtsdaten von Hühnern. 
 
 `@pre_exercise_code`
 ```{r}
@@ -704,10 +704,10 @@ xp: 15
 ```
 
 `@instructions`
-Betrachten Sie den Datensatz chickwts und speichern Sie ihn als chickw ab!
+Betrachten Sie den Datensatz _chickwts_ und speichern Sie ihn als _chickw_ ab!
 
 `@hint`
-Schaffst du auch so ;)
+
 
 `@sample_code`
 ```{r}
@@ -734,10 +734,10 @@ xp: 15
 ```
 
 `@instructions`
-Wie viele Beobachtungen und Variablen enthält der Datensatz? Speichern Sie die Antwort als ch ab!
+Wie viele Beobachtungen und Variablen enthält der Datensatz? Speichern Sie die Antwort als _ch_ ab!
 
 `@hint`
-Verwenden Sie str()
+Verwenden Sie _str()_
 
 `@sample_code`
 ```{r}
@@ -765,7 +765,7 @@ xp: 15
 
 `@instructions`
 Extrahieren Sie einen neuen Datensatz, der nur jene Beobachtungen enthält, wo die Hühner mit horsebean oder linseed gefüttert wurden.
-Speichern Sie diesen Datensatz unter dem Namen sol!
+Speichern Sie diesen Datensatz unter dem Namen _sol_!
 
 `@hint`
 Wir brauchen eine Bedingung [], einen Vergleich == und ein Oder |
@@ -796,9 +796,9 @@ xp: 15
 
 `@instructions`
 Was ist das minimale, maximale und durchschnittliche Gewicht für alle Beobachtungen?
-Mit 3 Befehlen nacheinander bitte, angefangen mit minmial, dann maximal und im Anschluss durchschnittlich!
+Bitte bearbeiten Sie diese Aufgabe mit 3 Befehlen nacheinander, angefangen mit minimal, dann maximal und im Anschluss durchschnittlich!
 
-Speichern Sie diese in mi,ma und mea!
+Speichern Sie diese in _mi,ma_ und _mea_!
 
 `@hint`
 Befehl(chickwts$weight)
@@ -830,9 +830,9 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Werte _min, max_ und _mean_,wenn nur jene Huehner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
+Berechnen Sie die Werte _min, max_ und _mean_,wenn nur jene Hühner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
 
-Speichern Sie diese in mi_h_l,ma_h_l und mea_h_l!
+Speichern Sie diese in _mi_h_l,ma_h_l_ und _mea_h_l_!
 
 `@hint`
 Befehl(dataset[dataset$var == "horsebean" | dataset$var == "linseed", ]$weight)
@@ -936,7 +936,7 @@ Laut ANOVA Step 7.
 `@sct`
 ```{r}
 msg1 <- "Perfect ;)"
-msg2 <- "Nope!? Bitte nochmal genau nachsehen!"
+msg2 <- "Das stimmt leider nicht. Bitte noch einmal genau nachsehen!"
 ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
