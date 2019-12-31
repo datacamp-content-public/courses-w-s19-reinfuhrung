@@ -152,7 +152,7 @@ key: 367dd3bb12
 xp: 100
 ```
 
-<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+Bei dieser Aufgabe stammen die Daten von einem Experiment zum Wachstum der Zähne bei Meerschweinchen.
 
 `@pre_exercise_code`
 ```{r}
@@ -168,7 +168,7 @@ xp: 15
 ```
 
 `@instructions`
-Laden Sie den bereits verfügbaren Datensatz ToothGrowth und speichern Sie ihn unter ToothGrowth. Die Daten stammen von einem Experiment zum Wachstum der Zähne (gemessen durch die Länge _len_) bei Meerschweinchen, die eine Dosis _dose_ an Vitamin C in einer von zwei Verabreichungsformen (_supp_) erhalten haben.
+Laden Sie den bereits verfügbaren Datensatz _ToothGrowth_ und speichern Sie ihn unter _ToothGrowth_. Die Daten stammen von einem Experiment zum Wachstum der Zähne (gemessen durch die Länge _len_) bei Meerschweinchen, die eine Dosis _dose_ an Vitamin C in einer von zwei Verabreichungsformen (_supp_) erhalten haben.
 
 `@hint`
 name <- dataset
@@ -197,7 +197,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die mittlere Zahnlänge (len) der Meerschweinchen und legen Sie die Lösung bitte als m <- Lösung an.
+Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und legen Sie die Lösung bitte als _m <- Lösung_ an.
 
 `@hint`
 mean(dataset$variable)
@@ -258,7 +258,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als sa <- Lösung an.
+Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als _sa <- Lösung_ an.
 
 `@hint`
 sd()
@@ -289,7 +289,7 @@ xp: 15
 
 `@instructions`
 Berechnen Sie den Korrelationskoeffizienten zwischen Dosis und Zahnlänge.
-Lösung bitte als corr anlegen!
+Die Lösung bitte als Variable _corr_ anlegen!
 
 `@hint`
 cor(x,y)
@@ -319,7 +319,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie den Mittelwert der Zahnlängen nur für die Gruppe "OJ"! Speichern als oj!
+Berechnen Sie den Mittelwert der Zahnlängen nur für die Gruppe "OJ"! Speichern Sie das Ergebnis als Variable _oj_!
 
 `@hint`
 mean(var[Bedingung]), "OJ" in Anführungszeichen
@@ -350,8 +350,7 @@ xp: 10
 
 `@instructions`
 Lassen Sie sich von R ein einfaches Streudiagramm der Variable _len_ ausgeben
-
-Speichern Sie den Befehl zur Kontrolle bitte als plotlen!
+Speichern Sie den Befehl zur Kontrolle bitte als _plotlen_!
 
 `@hint`
 plot()
