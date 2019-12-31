@@ -491,7 +491,7 @@ key: 57ba32e6f6
 xp: 100
 ```
 
-<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375525-course-sequential-exercises. -->
+Im Datensatz _cars_ finden Sie Angaben zu verschiedenen Autos. 
 
 `@pre_exercise_code`
 ```{r}
@@ -598,7 +598,7 @@ xp: 20
 ```
 
 `@instructions`
-Extrahieren Sie die zweite Variable und speichern Sie diese in two!
+Extrahieren Sie die zweite Variable und speichern Sie diese in der Variable _two_!
 
 `@hint`
 dataset[,2]
@@ -628,7 +628,7 @@ xp: 20
 ```
 
 `@instructions`
-Extrahieren Sie die Variable dist fuer die ersten 3 Beobachtungen und speichern Sie diese in firstthree!
+Extrahieren Sie die Variable _dist_ fuer die ersten 3 Beobachtungen und speichern Sie diese in der Variable _firstthree_!
 
 `@hint`
 dataset$var[x:y]
@@ -658,7 +658,7 @@ key: 27e55ee02b
 
 `@instructions`
 Bitte lassen Sie sich ein einfaches Streudiagramm von Distanz gegen Speed ausgeben!
-D.h., x-Achse _speed_, y-Achse _dist_!
+D.h., auf der x-Achse soll _speed_, auf der y-Achse _dist_ abgetragen werden!
 
 `@hint`
 plot(y~x)
