@@ -136,9 +136,9 @@ P.S.: Führen Sie ggf. die vorherigen Befehle nochmals aus!
 
 `@sct`
 ```{r}
-msg1 <- "Super, Weiter so!"
-msg2 <- "Nope."
-msg3 <- "Nein!"
+msg1 <- "Super, weiter so!"
+msg2 <- "Leider falsch."
+msg3 <- "Leider falsch."
 ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
