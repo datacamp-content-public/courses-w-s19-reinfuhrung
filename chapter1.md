@@ -187,7 +187,11 @@ vector1 <- c(3, 12, 13, 4, 6)
 
 `@sct`
 ```{r}
-# Check https://instructor-support.datacamp.com/en/articles/2375523-course-multiple-choice-with-console-exercises on how to write feedback messages for this exercise.
+msg1 <- "Leider falsch."
+msg2 <- "Super, weiter so!"
+msg3 <- "Leider falsch."
+msg4 <- "Leider falsch."
+ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
 ```
 
 ---
