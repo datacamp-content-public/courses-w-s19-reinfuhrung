@@ -348,8 +348,8 @@ xp: 10
 ```
 
 `@instructions`
-Lassen Sie sich von R ein einfaches Streudiagramm der Variable _len_ ausgeben
-Speichern Sie den Befehl zur Kontrolle bitte als _plotlen_!
+Lassen Sie sich von R ein einfaches Streudiagramm der Variable _len_ ausgeben.
+Speichern Sie den Befehl bitte als _plotlen_!
 
 `@hint`
 plot()
