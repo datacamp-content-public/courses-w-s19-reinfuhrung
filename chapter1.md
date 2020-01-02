@@ -290,13 +290,13 @@ key: 07a3a95b59
 xp: 100
 ```
 
-
+Rechnen und vergleichen.
 
 `@instructions`
-Prüfe in einer Codezeile, ob 3 * 4 gleich 2 * 6 UND 5 * 12 gleich 60 ist.
+Prüfen Sie in einer Codezeile, ob 3 * 4 gleich 2 * 6 UND 5 * 12 gleich 60 ist.
 
 `@hint`
-Zuerst die ersten beiden Prdoukte vergleichen, dann Und-Zeichen, dann die beiden anderen Zahlen vergleichen
+Zuerst die ersten beiden Produkte vergleichen, dann Und-Zeichen, dann die beiden anderen Zahlen vergleichen
 
 `@pre_exercise_code`
 ```{r}
