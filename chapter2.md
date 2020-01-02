@@ -1014,11 +1014,7 @@ fn = fn-1 + fn+2
 mit den Anfangswerten f0 = 0 und f1 = 1 ergibt. Also, 0; 1; 1; 2; 3; 5; 8; 13; : : :. 
 
 `@instructions`
-Die Fibonacci-Folge ist eine unendliche Folge von Zahlen (den Fibonacci-Zahlen), bei der sich die jeweils folgende Zahl durch Addition der beiden vorherigen Zahlen
-
-fn = fn-1 + fn+2
-
-mit den Anfangswerten f0 = 0 und f1 = 1 ergibt. Also, 0; 1; 1; 2; 3; 5; 8; 13; : : :. Schreiben Sie eine for-Schleife, welche in einem Vektor fib die ersten 30 Fibonacci-Zahlen abspeichert.	
+Schreiben Sie eine for-Schleife, welche in einem Vektor _fib_ die ersten 30 Fibonacci-Zahlen abspeichert.	
 
 Am Ende vom Code bitte die Folge ausgeben lassen. Also _print(fib)_.
 
