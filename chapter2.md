@@ -126,9 +126,9 @@ Was ist jetzt die Summe von z?
 P.S.: Führen Sie ggf. die vorherigen Befehle nochmals aus!
 
 `@possible_answers`
-- [605]
-- 595
-- 615
+- [110]
+- 95
+- 105
 
 `@hint`
 
