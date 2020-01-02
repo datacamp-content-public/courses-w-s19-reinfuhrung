@@ -370,4 +370,4 @@ Wozu dient die Extract-Function?
 `@feedback`
 - Nein, darum geht es leider nicht.
 - Leider nein.
-- Richtig.
+- Richtig. ACHTUNG: Falls die nächste Übung nicht automatisch lädt, bitte folgenden Umweg nehmen: Oben auf den Pfeil rechts neben "Course Outline" klicken, dann kommt eine Seite mit Fehlermeldung, dort bitte **im Browser** auf den _zurück_-Pfeil klicken.
