@@ -57,7 +57,7 @@ xp: 25
 ```
 
 `@instructions`
-Berechnen Sie anschließend die Summe von x und weisen Sie das Ergebnis einem Vektor y zu.
+Berechnen Sie anschließend die Summe der Zahlen von 1 bis 10 und weisen Sie das Ergebnis einem Vektor y zu.
 
 P.S.: Führen Sie ggf. die vorherigen Befehle nochmals aus!
 
