@@ -200,13 +200,13 @@ key: a5759445de
 xp: 100
 ```
 
-Bei dieser Aufgabe geht es darum, die Konsole von R-Studio als einfachen Taschenrechner zu verwenden.
+Bei dieser Aufgabe geht es darum, die Konsole von RStudio als einfachen Taschenrechner zu verwenden.
 
 `@instructions`
-Berechne die Summe aus 2 und 28.
+Berechnen Sie die Summe aus 2 und 28.
 
 `@hint`
-Ergebnis sollte 30 sein, wenn du was anderes heraus bekommst, dann passt was nicht. Hast du auf "Run Code" und "Submit Answer" gedrückt?
+Das Ergebnis sollte 30 sein, wenn etwas anderes herauskommt, dann passt etwas nicht. Haben Sie auf _Run Code_ und _Submit Answer_ gedrückt?
 
 `@pre_exercise_code`
 ```{r}
@@ -238,7 +238,7 @@ key: 86ac8a0eb1
 xp: 50
 ```
 
-Wofür wird in R-Studio das Konsolenfenster verwendet?
+Wofür wird in RStudio das Konsolenfenster verwendet?
 
 `@hint`
 www.google.at
@@ -251,9 +251,9 @@ www.google.at
 
 `@feedback`
 - Super!
-- Das kann man besser im Dateimanager machen
-- Dazu verwendet man den Debugger
-- Dazu verwendet man das "Source-Fenster"
+- Das kann man besser im Dateimanager machen.
+- Dazu verwendet man den Debugger.
+- Dazu verwendet man das Source-Fenster.
 
 ---
 
@@ -276,8 +276,8 @@ Welche Auswirkung haben die Pfeiltasten (nach oben, nach unten) in der Konsole?
 - [Sie blättern durch die bereits eingegebenen Befehle (Historie)]
 
 `@feedback`
-- Nein, tun sie nicht.
-- Sie bewirken schon etwas, denk mal nach oder probiers einfach mal aus!
+- Nein, das tun sie nicht.
+- Sie bewirken schon etwas - probieren Sie es einfach mal aus!
 - Ja, die Historie der bereits eingegeben Befehle wird damit durchblättert.
 
 ---
