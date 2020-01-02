@@ -768,6 +768,7 @@ Speichern Sie diesen Datensatz unter dem Namen _sol_!
 
 `@hint`
 Wir brauchen eine Bedingung [], einen Vergleich == und ein Oder |
+Tipp: Beistrich am Ende nicht vergessen!
 
 `@sample_code`
 ```{r}
@@ -829,9 +830,9 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Werte _min, max_ und _mean_,wenn nur jene Hühner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
+Berechnen Sie die Werte _min, max_ und _mean_, wenn nur jene Hühner betrachtet werden, die mit horsebean oder linseed gefuettert wurden.
 
-Speichern Sie diese in _mi_h_l,ma_h_l_ und _mea_h_l_!
+Speichern Sie diese in _mi_hl, ma_hl_ und _mea_hl_!
 
 `@hint`
 Befehl(dataset[dataset$var == "horsebean" | dataset$var == "linseed", ]$weight)
@@ -844,9 +845,9 @@ chickwts <- chickwts
 
 `@solution`
 ```{r}
-mi_h_l <- min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
-ma_h_l <- max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
-mea_h_l <- mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mi_hl <- min(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+ma_hl <- max(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
+mea_hl <- mean(chickwts[chickwts$feed == "horsebean" | chickwts$feed == "linseed", ]$weight)
 ```
 
 `@sct`
