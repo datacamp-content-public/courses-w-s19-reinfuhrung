@@ -400,7 +400,7 @@ xp: 35
 Erzeugen Sie einen Vektor x, der die Zahlen von 1 bis 100 enthält.
 
 `@hint`
-Das sollten Sie mittlerweile schon wissen ;)
+Das haben Sie in einer früheren Übung schon gemacht. Vektoren erzeugt man mit _c()_.
 
 `@sample_code`
 ```{r}
@@ -462,7 +462,7 @@ xp: 30
 Speichern Sie das Ergebnis der folgenden Aufgabe in z. Addieren Sie zu allen durch 9 teilbaren Zahlen in x den Wert 7 und ziehen Sie den Wert 1 von den ungeraden Zahlen in x ab.
 
 `@hint`
-c(((x[x%%Bedingung])+7),((x[x%%Bedingung])-1))
+c(((x[Bedingung])+7),((x[Bedingung])-1)); _ungerade_ lässt sich als _x%%2==1_ ausdrücken
 
 `@sample_code`
 ```{r}
