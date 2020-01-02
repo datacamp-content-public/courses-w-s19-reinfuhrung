@@ -152,7 +152,7 @@ key: 367dd3bb12
 xp: 100
 ```
 
-Bei dieser Aufgabe stammen die Daten von einem Experiment zum Wachstum der Zähne bei Meerschweinchen.
+Die Daten dieser Übung stammen von einem Experiment zum Wachstum der Zähne (gemessen durch die Länge _len_) bei Meerschweinchen, die eine Dosis _dose_ an Vitamin C in einer von zwei Verabreichungsformen (_supp_) erhalten haben.
 
 `@pre_exercise_code`
 ```{r}
@@ -168,7 +168,7 @@ xp: 15
 ```
 
 `@instructions`
-Laden Sie den bereits verfügbaren Datensatz _ToothGrowth_ und speichern Sie ihn unter _ToothGrowth_. Die Daten stammen von einem Experiment zum Wachstum der Zähne (gemessen durch die Länge _len_) bei Meerschweinchen, die eine Dosis _dose_ an Vitamin C in einer von zwei Verabreichungsformen (_supp_) erhalten haben.
+Laden Sie den bereits verfügbaren Datensatz _ToothGrowth_ und speichern Sie ihn in der Variable _ToothGrowth_.
 
 `@hint`
 name <- dataset
@@ -197,7 +197,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und legen Sie die Lösung bitte als _m <- Lösung_ an.
+Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und legen Sie die Lösung bitte als _m <- LÖSUNG_ an.
 
 `@hint`
 mean(dataset$variable)
@@ -228,7 +228,7 @@ xp: 15
 
 `@instructions`
 Betrachten Sie alle Meerschweinchen mit einer Zahnlänge von mindestens 20.
-Speichern Sie die Beobachtungen als "m" ab.
+Speichern Sie die Beobachtungen als _m_ ab.
 
 `@hint`
 Dataset[Dataset$variable(Bedingung),]
@@ -258,7 +258,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als _sa <- Lösung_ an.
+Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als _sa <- LÖSUNG_ an.
 
 `@hint`
 sd()
@@ -289,7 +289,7 @@ xp: 15
 
 `@instructions`
 Berechnen Sie den Korrelationskoeffizienten zwischen Dosis und Zahnlänge.
-Die Lösung bitte als Variable _corr_ anlegen!
+Legen Sie die Lösung bitte als Variable _corr_ an.
 
 `@hint`
 cor(x,y)
