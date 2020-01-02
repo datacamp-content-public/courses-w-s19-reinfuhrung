@@ -14,7 +14,7 @@ xp: 50
 In welchen der folgend genannten Fälle ist RStudio eine ideale Anwendung?
 
 `@hint`
-Vielleicht solltest du ganz kurz mal die Homepage von R-Studio ansehen.
+Vielleicht sollten Sie kurz die Homepage von RStudio ansehen.
 
 `@possible_answers`
 - [Um R-Programme zu schreiben, den Programmablauf zu testen und projektbasiert zu arbeiten.]
@@ -25,7 +25,7 @@ Vielleicht solltest du ganz kurz mal die Homepage von R-Studio ansehen.
 `@feedback`
 - Nicht schlecht für den Anfang!
 - Nein, dafür kann es verwendet werden, aber es ist nicht die ideale Anwendung.
-- Kann man machen, aber dafür ist R-Studio nicht gedacht.
+- Kann man machen, aber dafür ist RStudio nicht gedacht.
 - R ist eine Interpreter-Sprache, die Programme müssen daher nicht kompiliert werden.
 
 ---
@@ -38,7 +38,7 @@ key: a983e56487
 xp: 50
 ```
 
-**Wofür steht IDE im Zusammenhang mit RStudio?**
+Wofür steht _IDE_ im Zusammenhang mit RStudio?
 
 `@hint`
 RStudio ist eine IDE-Anwendung, mit der R einfacher verwendet werden kann. Es integriert dabei einige hilfreiche Entwicklungsumgebungen in eine Anwendung.
@@ -50,7 +50,7 @@ RStudio ist eine IDE-Anwendung, mit der R einfacher verwendet werden kann. Es in
 - [Integrated Development Environment]
 
 `@feedback`
-- Nope
+- Nein
 - Fast
 - Nein
 - Ja, das ist es!
@@ -102,10 +102,10 @@ Welches Dezimaltrennzeichen wird in R verwendet?
 - Klammer
 
 `@feedback`
-- Nope
+- Nein
 - Super, das ist es!
-- Nope
-- Nope
+- Nein
+- Nein
 
 ---
 
@@ -148,14 +148,14 @@ Welche Bedeutung hat in R das folgende Symbol == im Ausdruck 8 * 3 == 6 * 4?
 `@possible_answers`
 - weist der Variablen _8 * 3_ das Ergebnis der Multiplikation _6 * 4_ zu.
 - hat gar keine Bedeutung, da dieser Ausdruck in R gar nicht erlaubt ist.
-- [Vergleicht, ob das Ergebnis 8 * 3 gleich 6 * 4 ist und liefert den logischen Wert TRUE als Ergebnis]
-- Vergleicht, ob das Ergebnis 8 * 3 gleich 6 * 4 ist und liefert den logischen Wert FALSE als Ergebnis
+- [vergleicht, ob das Ergebnis 8 * 3 gleich 6 * 4 ist und liefert den logischen Wert TRUE als Ergebnis]
+- vergleicht, ob das Ergebnis 8 * 3 gleich 6 * 4 ist und liefert den logischen Wert FALSE als Ergebnis
 
 `@feedback`
 - Das stimmt leider nicht.
-- Nein, der Ausdruck ist sehr wohl erlaubt.
-- Ja, er prüft auf logische Äquivalenz.
-- Der Vergleich liefert aber ein anderes Ergebnis, oder?
+- Doch, der Ausdruck ist sehr wohl erlaubt.
+- Ja, das Symbol prüft auf logische Äquivalenz.
+- Es handelt sich um einen Vergleich, aber mit anderem Ergebnis.
 
 ---
 
@@ -167,9 +167,9 @@ key: 0319dccb8d
 xp: 50
 ```
 
-Berechne den Mittelwert des Vektors **vector1** (der Vektor wurde bereits in den Arbeitsspeicher geladen und ist mit eben diesem Namen verfügbar). Wenn du in der Konsole _vector1_ und _Eingabe_ eingibst, siehst du die Werte, die in diesem Vektor gespeichtert sind.
+Berechnen Sie den Mittelwert des Vektors **vector1** (der Vektor wurde bereits in den Arbeitsspeicher geladen und ist mit eben diesem Namen verfügbar). Wenn Sie in der Konsole _vector1_ und _Eingabe_ eingeben, sehen Sie die Werte, die in diesem Vektor gespeichtert sind.
 
-Verwende die Tab-completion von RStudio sowohl beim Funktionsnamen wie auch innerhalb der Funktion.
+Verwenden Sie die Tab-completion von RStudio sowohl beim Funktionsnamen wie auch innerhalb der Funktion.
 
 `@possible_answers`
 - 5.4
@@ -178,7 +178,7 @@ Verwende die Tab-completion von RStudio sowohl beim Funktionsnamen wie auch inne
 - 12.23
 
 `@hint`
-Verwende die Funktion _mean()_ und die Tab-completion-Funktion von R-Studio
+Verwenden Sie die Funktion _mean()_ und die Tab-completion-Funktion von RStudio
 
 `@pre_exercise_code`
 ```{r}
