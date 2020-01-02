@@ -11,7 +11,7 @@ key: fa3174d1ad
 xp: 100
 ```
 
-Es geht hier um Berechnungen mit Vektoren. 
+Es geht hier um Berechnungen mit Vektoren.
 
 `@pre_exercise_code`
 ```{r}
@@ -491,7 +491,7 @@ key: 57ba32e6f6
 xp: 100
 ```
 
-Im Datensatz _cars_ finden Sie Angaben zu verschiedenen Autos. 
+Im Datensatz _cars_ finden Sie Angaben zu verschiedenen Autos.
 
 `@pre_exercise_code`
 ```{r}
@@ -688,7 +688,7 @@ key: 486e9fe2e3
 xp: 100
 ```
 
-Der hier verwendete Datensatz enthält Futter- und Gewichtsdaten von Hühnern. 
+Der hier verwendete Datensatz enthält Futter- und Gewichtsdaten von Hühnern.
 
 `@pre_exercise_code`
 ```{r}
