@@ -230,7 +230,7 @@ Betrachten Sie alle Meerschweinchen mit einer Zahnlänge von mindestens 20.
 Speichern Sie die Beobachtungen als _m_ ab.
 
 `@hint`
-Dataset[Dataset$variable(Bedingung),]
+Dataset[Dataset$variableBedingung,]
 
 `@sample_code`
 ```{r}
