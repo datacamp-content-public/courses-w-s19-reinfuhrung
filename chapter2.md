@@ -541,7 +541,7 @@ Wie viele Beobachtungen und Variablen enthält der Datensatz?
 Mit welchem Befehl in R sieht man das am einfachsten?
 
 `@hint`
-Es ist str()
+Es ist _str()_
 
 `@sample_code`
 ```{r}
@@ -628,7 +628,7 @@ xp: 20
 ```
 
 `@instructions`
-Extrahieren Sie die Variable _dist_ fuer die ersten 3 Beobachtungen und speichern Sie diese in der Variable _firstthree_!
+Extrahieren Sie die Variable _dist_ für die ersten 3 Beobachtungen und speichern Sie diese in der Variable _firstthree_!
 
 `@hint`
 dataset$var[x:y]
