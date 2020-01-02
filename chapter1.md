@@ -191,7 +191,7 @@ msg1 <- "Leider falsch."
 msg2 <- "Super, weiter so!"
 msg3 <- "Leider falsch."
 msg4 <- "Leider falsch."
-ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
+ex() %>% check_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4))
 ```
 
 ---
