@@ -90,11 +90,10 @@ xp: 25
 
 `@instructions`
 Erzeugen Sie einen neuen Vektor z, der x und danach y enthält.
-
-P.S.: Führen Sie ggf. die vorherigen Befehle nochmals aus!
+Geben Sie die Vektoren als 1:10 und sum(1:10) an!
 
 `@hint`
-c(firstVec,secondVec)
+Es ist **nicht** c(x&y) gemeint, sondern verwenden Sie bitte die in der Instruktion angegebene Form. Dann: c(firstVec,secondVec)
 
 `@sample_code`
 ```{r}
