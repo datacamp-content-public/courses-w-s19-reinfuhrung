@@ -950,14 +950,14 @@ key: a33e66c617
 xp: 100
 ```
 
-<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
+Bei dieser Übung arbeiten Sie mit Bedingungen (if).
 
 `@instructions`
 x <- -5
 
-Schreiben Sie eine einfache If-Bedingung, sodass R anhand des Wertes in x für eine positive Zahl  "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
+Schreiben Sie eine einfache If-Bedingung, sodass R anhand des Wertes in x für eine positive Zahl den Text "Non-negative number" bzw. für eine negative Zahl "Negative number" ausgibt!
 
-Weiter soll in dieser Bedingung sobald eine Negative Zahl gefunden wurde ein Vektor y mit dem Wert 0 angelegt werden, sowie bei Nicht-negativen Zahlen ein Vektor y mit dem Wert 1!
+Weiter soll in dieser Bedingung, sobald eine negative Zahl gefunden wurde, ein Vektor y mit dem Wert 0 angelegt werden, sowie bei nicht-negativen Zahlen ein Vektor y mit dem Wert 1!
 
 `@hint`
 if(...){
@@ -1008,17 +1008,20 @@ key: 9cf1fc2eb2
 xp: 100
 ```
 
-<!-- Guidelines for contexts: https://instructor-support.datacamp.com/en/articles/2375526-course-coding-exercises. -->
+Die Fibonacci-Folge ist eine unendliche Folge von Zahlen (den Fibonacci-Zahlen), bei der sich die jeweils folgende Zahl durch Addition der beiden vorherigen Zahlen
+
+fn = fn-1 + fn+2
+
+mit den Anfangswerten f0 = 0 und f1 = 1 ergibt. Also, 0; 1; 1; 2; 3; 5; 8; 13; : : :. 
 
 `@instructions`
 Die Fibonacci-Folge ist eine unendliche Folge von Zahlen (den Fibonacci-Zahlen), bei der sich die jeweils folgende Zahl durch Addition der beiden vorherigen Zahlen
-
 
 fn = fn-1 + fn+2
 
 mit den Anfangswerten f0 = 0 und f1 = 1 ergibt. Also, 0; 1; 1; 2; 3; 5; 8; 13; : : :. Schreiben Sie eine for-Schleife, welche in einem Vektor fib die ersten 30 Fibonacci-Zahlen abspeichert.	
 
-Am Ende vom Code bitte die Folge ausgeben lassen. Also print(fib)
+Am Ende vom Code bitte die Folge ausgeben lassen. Also _print(fib)_.
 
 Bitte am Ende dann die Summe der Fibonacci-Folge von 1:30 als Variable y abspeichern!
 
