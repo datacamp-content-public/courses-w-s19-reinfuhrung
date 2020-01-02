@@ -196,7 +196,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und legen Sie die Lösung bitte als _m <- Lösung_ an.
+Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und speichern Sie die Lösung bitte in der Variable _m_.
 
 `@hint`
 mean(dataset$variable)
@@ -257,7 +257,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und legen Sie die Lösung bitte als _sa <- LÖSUNG_ an.
+Berechnen Sie die Standardabweichung für die Zahnlänge (_len_) und speichern Sie die Lösung bitte in der Variable _sa_.
 
 `@hint`
 sd()
