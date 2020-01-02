@@ -830,9 +830,9 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die Werte _min, max_ und _mean_, wenn nur jene Hühner betrachtet werden, die mit horsebean oder linseed gefüttert wurden.
+Berechnen Sie die Gewichts-Werte _min, max_ und _mean_, wenn nur jene Hühner betrachtet werden, die mit horsebean oder linseed gefüttert wurden.
 
-Speichern Sie diese in mihl, mahl und meahl!
+Speichern Sie diese in _mihl, mahl_ und _meahl_!
 
 `@hint`
 Befehl(dataset[dataset$var == "horsebean" | dataset$var == "linseed", ]$weight)
@@ -924,14 +924,13 @@ xp: -5
 
 `@question`
 Unterscheiden sich die Gruppen signifikant voneinander?
-Laut ANOVA Step 7.
 
 `@possible_answers`
 - [Ja]
 - Nein
 
 `@hint`
-
+Sehen Sie sich das Ergebnis von _PR_ an!
 
 `@sct`
 ```{r}
