@@ -196,7 +196,7 @@ xp: 15
 ```
 
 `@instructions`
-Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und legen Sie die Lösung bitte als _m <- LÖSUNG_ an.
+Berechnen Sie die mittlere Zahnlänge (_len_) der Meerschweinchen und legen Sie die Lösung bitte als _m <- Lösung_ an.
 
 `@hint`
 mean(dataset$variable)
