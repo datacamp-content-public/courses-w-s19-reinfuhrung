@@ -798,7 +798,7 @@ xp: 15
 Was ist das minimale, maximale und durchschnittliche Gewicht für alle Beobachtungen?
 Bitte bearbeiten Sie diese Aufgabe mit 3 Befehlen nacheinander, angefangen mit minimal, dann maximal und im Anschluss durchschnittlich!
 
-Speichern Sie diese in _mi,ma_ und _mea_!
+Speichern Sie die Ergebnisse in _mi,ma_ und _mea_!
 
 `@hint`
 Befehl(chickwts$weight)
@@ -935,7 +935,7 @@ Laut ANOVA Step 7.
 
 `@sct`
 ```{r}
-msg1 <- "Perfect ;)"
+msg1 <- "Perfekt"
 msg2 <- "Das stimmt leider nicht. Bitte noch einmal genau nachsehen!"
 ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2))
 ```
