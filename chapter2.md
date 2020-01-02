@@ -569,7 +569,7 @@ xp: 20
 Geben Sie die 3., 10. und 12. Beobachtung aus und speichern Sie diese in die Variable x!
 
 `@hint`
-name[c(.,.,.),]
+dataset[c(.,.,.),]
 
 `@sample_code`
 ```{r}
