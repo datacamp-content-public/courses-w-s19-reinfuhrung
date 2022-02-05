@@ -1,6 +1,6 @@
 ---
 title: Coding
-description: 'easy examples u should solve without using google or anything else.'
+description: easy examples u should solve without using google or anything else.
 ---
 
 ## Vektoren

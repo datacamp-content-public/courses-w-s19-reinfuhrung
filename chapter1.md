@@ -1,5 +1,5 @@
 ---
-title: 'Multiple Choice'
+title: Multiple Choice
 description: Basics
 ---
 
