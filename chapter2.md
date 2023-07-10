@@ -502,7 +502,7 @@ Im Datensatz _cars_ finden Sie Angaben zu verschiedenen Autos.
 ```yaml
 type: NormalExercise
 key: a4afb6dddf
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -532,7 +532,7 @@ success_msg("Well done!")
 ```yaml
 type: NormalExercise
 key: 413263920e
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -562,7 +562,7 @@ str(cars)
 ```yaml
 type: NormalExercise
 key: a259c8f3cc
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -593,7 +593,7 @@ success_msg("Well done!")
 ```yaml
 type: NormalExercise
 key: 9867c3f436
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -623,7 +623,7 @@ success_msg("Well done!")
 ```yaml
 type: NormalExercise
 key: 4e706c2c5c
-xp: 20
+xp: 15
 ```
 
 `@instructions`
@@ -653,6 +653,7 @@ success_msg("Well done!")
 ```yaml
 type: NormalExercise
 key: 27e55ee02b
+xp: 25
 ```
 
 `@instructions`
